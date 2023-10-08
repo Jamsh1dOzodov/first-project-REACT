@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../assets/logo.png";
 import research_icon from "../../assets/research_icon.svg";
-// import triangle from "../../assets/triangle.svg";
+import triangle from "../../assets/triangle.svg";
 import "./Header.scss"
 
 const Header = () => {
@@ -23,11 +23,11 @@ const Header = () => {
                         <ul className="header-list wrapper">
                             <li className="header-list__item">
                                 <a className="header-list__link" href="tel:+80647652334">8 (064)765-23-34</a>
-                                {/* <img className="header-list__triangle" src={triangle} alt="Треугольник"/> */}
+                                <img className="header-list__triangle" src={triangle} alt="Треугольник"/>
                             </li>
                             <li className="header-list__item">
                                 <a className="header-list__link" href="./personal.html">Вход / Регистрация</a>
-                                {/* <img className="header-list__triangle" src={triangle} alt="Треугольник"/> */}
+                                <img className="header-list__triangle" src={triangle} alt="Треугольник"/>
                             </li>
                         </ul>
                     </div>
